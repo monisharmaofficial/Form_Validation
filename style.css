@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #3498db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  background-color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+h2 {
+  margin: 0px 0px 15px 0px;
+}
+
+input {
+  width: 200px;
+  margin: 10px 0px;
+  padding: 12px;
+}
+
+input[type="submit"] {
+  width: 222px;
+  background-color: #3498db;
+  border: 0px;
+  color: white;
+  font-weight: 600;
+}
+
+.error {
+  color: red;
+  text-align: left;
+  margin: 0px;
+  font-size: small;
+}
